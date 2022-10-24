@@ -6,6 +6,7 @@ const HomeScreen = () => {
     <div className="homeScreen">
       {/* navbar */}
       <Nav />
+
       {/* banner */}
       {/* rows */}
     </div>
