@@ -1,0 +1,17 @@
+.row {
+  color: white;
+  margin-left: 20px;
+}
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+.row__poster {
+  max-height: 200px;
+}
+.row__posterLarge {
+}
