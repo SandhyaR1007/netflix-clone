@@ -3,7 +3,7 @@ import "./styles/Nav.css";
 const Nav = () => {
   const [showNav, setShowNav] = useState(false);
   const transitionNavbar = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 90) {
       setShowNav(true);
     } else {
       setShowNav(false);
